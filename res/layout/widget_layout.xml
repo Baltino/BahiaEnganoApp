@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" 
+    android:id="@+id/LinearLayout1" 
+    android:layout_width="144dip" 
+    android:layout_height="60dip"
+    android:padding="3dip"
+    android:background="@drawable/my_shape"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView 
+        android:id="@+id/imageView1" 
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent"
+        android:layout_weight="0.3" 
+        android:src="@drawable/logo" 
+        android:contentDescription="@string/button_send" />
+
+    <ImageButton
+        android:id="@+id/play_button"
+        android:layout_width="fill_parent"
+        android:layout_height="57dip"
+        android:layout_weight="0.7"
+        android:contentDescription="lala"
+        android:src="@drawable/icon_play_white" />
+
+</LinearLayout>
